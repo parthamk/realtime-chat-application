@@ -8,10 +8,12 @@ const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 const notificationRoutes = require("./routes/notificationRoutes");
 const path = require("path");
+const cors = require('cors');
 
 dbConnect();
 const app = express();
 app.use(express.json());
+app.use(cors())
 
 // Main routes
 app.use("/api/users", userRoutes);
@@ -31,7 +33,7 @@ if (process.env.NODE_ENV === "production") {
   // First route
   app.get("/", (req, res) => {
     res.status(200).json({
-      message: "Hello from DE-Link Chat App server",
+      message: "Hello from Realtime Chat App server",
     });
   });
 }

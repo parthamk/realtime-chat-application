@@ -1,42 +1,45 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.app {
+  min-height: 100vh;
+}
+.home_container {
+  width: 100vw;
+  height: 100vh;
+}
+.home_img {
+  background: url("../public/img/b2.png");
+  background-size: cover;
+  background-position: center;
+  filter: invert(100%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.chatContainer {
+  width: "100%";
+  background: url("../public/img/tile_background.png");
+  color: "#FFF";
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.brand {
+  font-family: Righteous, cursive;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+::-webkit-scrollbar {
+  width: 0;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  background: #1d19317e;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+::-webkit-slider-thumb:hover {
+  background: #1d1931;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.message {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  width: 100%;
 }
