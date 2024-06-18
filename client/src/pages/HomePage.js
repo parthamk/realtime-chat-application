@@ -43,11 +43,11 @@ const Homepage = () => {
             alignContent="center"
             p="3"
             bg="#fff"
-            mt="2em"
+            mt="1em"
           >
             <Text fontSize="4xl">Real Time Chat</Text>
           </Box>
-          <Box w="100%" p="4" mt="20px">
+          <Box w="100%" p="3" mt="10px">
             <Tabs isFitted variant="enclosed">
               <TabList mb="1em">
                 <Tab>Login</Tab>

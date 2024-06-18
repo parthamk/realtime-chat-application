@@ -105,7 +105,7 @@ import {
         >
           Login
         </Button>
-        <Button
+        {/* <Button
           variant="outline"
           bg={"#fff"}
           colorScheme={"white"}
@@ -121,7 +121,7 @@ import {
           isLoading={loading}
         >
           Guest login
-        </Button>
+        </Button> */}
       </VStack>
     );
   };

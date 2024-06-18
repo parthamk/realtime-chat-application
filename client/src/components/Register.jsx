@@ -167,7 +167,7 @@ import {
           colorScheme={"green"}
           color="#fff"
           width="100%"
-          style={{ marginTop: "40px" }}
+          style={{ marginTop: "20px" }}
           onClick={handleSubmit}
           isLoading={uploadingImage}
         >

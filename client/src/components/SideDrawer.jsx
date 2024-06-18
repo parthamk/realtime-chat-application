@@ -28,7 +28,7 @@ import { useNavigate } from "react-router-dom";
 import { useDisclosure } from "@chakra-ui/hooks";
 import { toast } from "react-toastify";
 import axios from "axios";
-import NotificationBadge, { Effect } from "react-notification-badge";
+import NotificationBadge, { Effect } from "@parthamk/notification-badge";
 
 const SideDrawer = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
