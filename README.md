@@ -58,20 +58,65 @@ You need to have the latest version of Node.js and MongoDB Community Server inst
 ## File Structure
 
 ```
-└── 📁realtime-chat-application
-    └── 📁client
-        └── 📁public
-        └── 📁src
-            └── 📁components
-            └── 📁config
-            └── 📁context
-            └── 📁pages
-            └── 📁Util
-    └── 📁server
+└── 📁Feedback-Collection-System
+    └── 📁backend
+        └── .env
+        └── .gitignore
         └── 📁controllers
-        └── 📁middleware
+            └── sampleController.js
         └── 📁models
+            └── Sample.js
+        └── package-lock.json
+        └── package.json
         └── 📁routes
+            └── sampleRoutes.js
+        └── server.js
+    └── 📁frontend
+        └── .eslintrc.cjs
+        └── .gitignore
+        └── index.html
+        └── package-lock.json
+        └── package.json
+        └── postcss.config.js
+        └── 📁public
+            └── vite.svg
+        └── README.md
+        └── 📁src
+            └── App.css
+            └── App.jsx
+            └── 📁assets
+                └── react.svg
+            └── 📁components
+                └── Form.jsx
+                └── RequireAuth.jsx
+            └── index.css
+            └── main.jsx
+            └── 📁pages
+                └── 📁dashboard
+                    └── Dashboard.jsx
+                    └── Home.jsx
+                    └── Profile.jsx
+                └── Login.jsx
+                └── Register.jsx
+        └── tailwind.config.js
+        └── vite.config.js
+    └── package-lock.json
+    └── README.md
+    └── 📁server
+        └── .env
+        └── .gitignore
+        └── 📁controllers
+            └── authController.js
+            └── fromController.js
+        └── index.js
+        └── 📁models
+            └── authModel.js
+            └── formModel.js
+        └── package-lock.json
+        └── package.json
+        └── 📁routes
+            └── authRoutes.js
+            └── formRoute.js
 ```
 
 ## Features
