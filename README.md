@@ -2,6 +2,8 @@
 
 This is a real-time chat application with features for group chats, user profiles, and notifications.
 
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/18f4HRaTlyblkrbSbhtrdbXcmNkTxps3g/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+
 ## How to run this application on localhost
 
 You need to have the latest version of Node.js and MongoDB Community Server installed.
